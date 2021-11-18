@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="css/variaveis.css">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Home</title>
 </head>
@@ -23,6 +24,7 @@
                 <img src="https://picsum.photos/100" alt="" class="cliente_foto" />
                  <div class="info_consulta">
                     <h2 class="cliente_nome">Luciana Dias</h2>
+                    
                     <h3 class="consulta_tipo">Consulta remota</h3>
                 </div>
                 <h4 class="consulta_horario">14:00 - 15:00 (1 hora)</h4>
@@ -62,16 +64,28 @@
                 <button class="botao__endereco">Ligar por vídeo</button>
             </article>
 
+            <article class="cartao__consultaPresencial">
+                <img src="https://picsum.photos/100" alt="" class="cliente_foto" />
+                <div class="info_consulta">
+                    <h2 class="cliente_nome">Larissa Santana</h2>
+                    <h3 class="consulta_tipo">Consulta no local</h3>
+                </div>               
+                <h4 class="consulta_horario">16:00 - 17:00 (1 hora)</h4>
+                <button class="botao__endereco">Ligar por vídeo</button>
+            </article>
+
         </section>
 
         <button class="adicionar__consulta">+</button>
 
     </main>
-    <footer class="menu__rodape">
-        <button class="botao__rodape consulta">Consulta</button>
-        <button class="botao__rodape cliente">Clientes</button>
-        <button class="botao__rodape relatorio">Relatórios</button>
-        <button class="botao__rodape menu">Menu</button>
-    </footer>
+
+    <nav class="menu__rodape">
+        <a class="botao__rodape consulta" href="#">Consulta</a>
+        <a class="botao__rodape cliente" href="#">Clientes</a>
+        <a class="botao__rodape relatorio" href="#">Relatórios</a>
+        <a class="botao__rodape menu" href="#">Menu</a>
+    </nav>
+
 </body>
 </html>

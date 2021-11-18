@@ -1,0 +1,103 @@
+:root {
+    /* CORES PRIMÁRIA */
+
+    --azul-900: #3942a9;
+    --azul-800: #4062c9;
+    --azul-700: #4373dc;
+    --azul-600: #4373dc;
+    --azul-500-primario: #4894ff;
+    --azul-400: #57a4ff;
+    --azul-300: #70b4ff;
+    --azul-200: #97caff;
+    --azul-100: #bfdeff;
+    --azul-50-primario-variacao: #e4f2ff;
+
+    /* CORES SECUNDÁRIA */
+
+    --laranja-900: #e34812;
+    --laranja-800: #ec4313;
+    --laranja-700: #f37314;
+    --laranja-600: #f98314;
+    --laranja-500: #fe8f14;
+    --laranja-400: #ff9f2d;
+    --laranja-300-secundario: #ffb050;
+    --laranja-200: #ffc781;
+    --laranja-100: #ffddb2;
+    --laranja-50-secundario-variacao: #fff2e0;
+
+    /* CORES NEUTRA  */
+    --preto-900: #333333;
+    --preto-800: #464646;
+    --preto-700: #616161;
+    --preto-600: #777777;
+    --preto-500: #8e8e8e;
+    --preto-400-variacao-1: #a4a4a4;
+    --preto-300-variacao-2: #bbbbbb;
+    --preto-200: #d2d2d2;
+    --preto-100-variacao-3: #e8e8e8;
+    --preto-50-variacao-4: #f4f4f4;
+    --branco-0: #ffffff;
+
+    /* COR SEMÂNTICA - VERDE */
+    --verde-900: #006400;
+    --verde-800: #008300;
+    --verde-700: #009400;
+    --verde-600: #00a611;
+    --verde-500-padrao: #17b51c;
+    --verde-400: #4bc147;
+    --verde-300: #70cc6b;
+    --verde-200: #9cda97;
+    --verde-100: #c3e8c0;
+    --verde-50: #e6f6e5;
+
+    /* COR SEMÂNTICA - VERMELHA */ 
+    --vermelho-900: #c7000e;
+    --vermelho-800: #d7011c;
+    --vermelho-700: #e41324;
+    --vermelho-600: #f6242a;
+    --vermelho-500: #ff3129;
+    --vermelho-400-padrao: #ff4848;
+    --vermelho-300: #f46e6e;
+    --vermelho-200: #fa9897;
+    --vermelho-100: #ffccd1;
+    --vermelho-50: #ffebee;
+
+    /* FONTES */
+
+    --fonte-mini: 0.625rem;
+    --fonte-pp: 0.75rem;
+    --fonte-p: 0.875rem;
+    --fonte-base: 1rem;  
+    --fonte-g: 1.375rem;
+    --fonte-xg: 2rem;
+    
+    --fontelinha-p: 0.5rem;
+    --fontelinha-m: 1rem;
+    --fontelinha-g: 1.5rem;
+    --fontelinha-xg: 2rem;
+    --fontelinha-2xg: 2.5rem;
+    --fontelinha-3xg: 3rem;
+
+    /* ESPAÇAMENTOS */
+
+    --espaco-zero: 0px;
+    --espaco-p: 8px;
+    --espaco-m: 16px;
+    --espaco-g: 24px;
+    --espaco-xg: 32px;
+    --espaco-2xg: 40px;
+    --espaco-margem: 16px;
+    --grid-gap: 16px;
+
+    /* CONTAINER MOBILE */
+
+    --container-mobile: 360px;
+
+    /* BORDAS */
+
+    --borda-p: 4px;
+    --borda-m: 8px;
+    --borda-g: 12px;
+    --borda-xg: 16px;
+}
+
